@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[PASS]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="38797" started-at="2017-10-19T15:24:47Z" finished-at="2017-10-19T15:25:25Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="38797" started-at="2017-10-19T15:24:47Z" finished-at="2017-10-19T15:25:25Z">
+      <class name="codingRound.scripts.HotelBookingTest">
+        <test-method status="PASS" signature="openApp()[pri:0, instance:codingRound.scripts.HotelBookingTest@531be3c5]" name="openApp" is-config="true" duration-ms="9050" started-at="2017-10-19T20:55:01Z" finished-at="2017-10-19T20:55:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="testHotelBooking()[pri:0, instance:codingRound.scripts.HotelBookingTest@531be3c5]" name="testHotelBooking" duration-ms="2725" started-at="2017-10-19T20:55:10Z" finished-at="2017-10-19T20:55:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHotelBooking -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:codingRound.scripts.HotelBookingTest@531be3c5]" name="closeApp" is-config="true" duration-ms="315" started-at="2017-10-19T20:55:12Z" finished-at="2017-10-19T20:55:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- codingRound.scripts.HotelBookingTest -->
+      <class name="codingRound.scripts.SignInTest">
+        <test-method status="PASS" signature="openApp()[pri:0, instance:codingRound.scripts.SignInTest@4909b8da]" name="openApp" is-config="true" duration-ms="9271" started-at="2017-10-19T20:55:13Z" finished-at="2017-10-19T20:55:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="testSignInPage()[pri:0, instance:codingRound.scripts.SignInTest@4909b8da]" name="testSignInPage" duration-ms="1439" started-at="2017-10-19T20:55:22Z" finished-at="2017-10-19T20:55:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignInPage -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:codingRound.scripts.SignInTest@4909b8da]" name="closeApp" is-config="true" duration-ms="2109" started-at="2017-10-19T20:55:23Z" finished-at="2017-10-19T20:55:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- codingRound.scripts.SignInTest -->
+      <class name="codingRound.scripts.FlightBookingTest">
+        <test-method status="PASS" signature="openApp()[pri:0, instance:codingRound.scripts.FlightBookingTest@3551a94]" name="openApp" is-config="true" duration-ms="11174" started-at="2017-10-19T20:54:47Z" finished-at="2017-10-19T20:54:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="testFlightBooking()[pri:0, instance:codingRound.scripts.FlightBookingTest@3551a94]" name="testFlightBooking" duration-ms="2266" started-at="2017-10-19T20:54:58Z" finished-at="2017-10-19T20:55:00Z">
+          <reporter-output>
+            <line>
+              <![CDATA[PASS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testFlightBooking -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:codingRound.scripts.FlightBookingTest@3551a94]" name="closeApp" is-config="true" duration-ms="434" started-at="2017-10-19T20:55:00Z" finished-at="2017-10-19T20:55:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- codingRound.scripts.FlightBookingTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
