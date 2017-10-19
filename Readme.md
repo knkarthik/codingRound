@@ -1,3 +1,14 @@
+### Code review
+There is obviously no framework in place in the sample project provided for this coding round test, making it difficult to reuse and maintain. I have designed a framework that will help to address these problems. The details are below.
+
+In `FlightBookingTest.java` these is no POM concept in play and this makes storing and updating the elements extremely difficult. In addition, the `waitFor`method (line 60) is better replaced by the inbuilt implicit or explicit wait.
+
+In `HotelBookingTest.java` there is POM concept but there is no segregation between test method and POM class. Ideally the pom class should worry about elements and methods to perform actions on elements, and test class should just call those pom class methods as needed.
+
+`SignInTest.java` has an issue with `iframe`.  The `signInButton` in line 23 is in another frame and we should switch to the frame before accessing the button using `driver.switchTo().frame()`. Once again the code is hard to maintain and it is not modular.
+
+
+
 ## Framework Design
 
 **Technology stack:** *Java, Selenium, TestNG, Maven*
